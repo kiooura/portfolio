@@ -144,4 +144,9 @@ p#space-top {
     position: absolute;
     top: 5rem;
   }
+
+  .grid-even-columns>a{
+  width: 180px;
+  height: 180px;
+  }
 }
