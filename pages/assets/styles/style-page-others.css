@@ -136,3 +136,9 @@ p#space-top {
   #contain{
     object-fit: contain;
   }
+
+
+  @media  (max-width: 800px)  {
+  .grid-even.grid-even-columns {
+  grid-template-columns: repeat(1, 1fr);;
+  }
