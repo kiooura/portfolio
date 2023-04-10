@@ -166,7 +166,11 @@ p{
 .header-img{
   width:100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+}
+
+#contain{
+  object-fit: contain;
 }
 
 .align-right{
@@ -180,9 +184,7 @@ p{
 
 
 
-#contain{
-  object-fit: contain;
-}
+
 
 
 .content-grid{
