@@ -209,4 +209,8 @@ p{
   grid-column:1;
   grid-row: span 1; 
 }
+
+#stick-top-water{
+    top: rem;
+}
 }
