@@ -138,6 +138,9 @@ p#space-top {
   }
 
 
+
+
+
   @media  (max-width: 800px)  {
     .grid-even-columns {
     grid-template-columns: repeat(1, 1fr);;
@@ -152,5 +155,9 @@ p#space-top {
 
   .text1{
     opacity: 1;
+    color: rgb(255, 140, 0);
   }
+
+    .img{
+        -webkit-filter: grayscale(0);
 }
