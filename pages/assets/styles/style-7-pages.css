@@ -194,4 +194,19 @@ p{
   .grid {
   grid-template-columns: repeat(1, 1fr);;
   }
+
+
+  .grid-item:nth-child(6n - 1) {
+  grid-column-start: 1;
+}
+
+.grid-item:nth-child(6n + 1) {
+  grid-column: 1;
+  grid-row: span 1;
+}
+  
+.grid-item:nth-child(6n) {
+  grid-column:1;
+  grid-row: span 1; 
+}
 }
