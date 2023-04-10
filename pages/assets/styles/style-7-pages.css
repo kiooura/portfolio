@@ -188,3 +188,11 @@ p{
     top: -10rem;
     position: inherit;
 }
+
+
+@media  (max-width: 800px)  {
+  .grid {
+  display: grid;
+  grid-template-columns: 1;
+  }
+}
