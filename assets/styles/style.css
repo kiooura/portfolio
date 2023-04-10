@@ -188,6 +188,14 @@ p{
 		justify-content: center;
 		display: grid;
 	}
+   .text1{
+    opacity: 1;
+    color: rgb(245 245 245);
+  }
+
+   .img{
+       -webkit-filter: grayscale(0);
+}
 
 	html{
 		min-height: auto;
@@ -216,14 +224,7 @@ p{
 		text-align: center;
 	}
 
-   .text1{
-    opacity: 1;
-    color: rgb(245 245 245);
-  }
 
-   .img{
-       -webkit-filter: grayscale(0);
-}
 
 }
 
