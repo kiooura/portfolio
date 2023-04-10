@@ -96,7 +96,6 @@ p#space-top {
   height: 100%;
   object-fit: cover;
   border-radius: 5%;
-  filter: gray;
   -webkit-filter: grayscale(1);
   -webkit-transition: all .2s ease-in-out;  
     }
