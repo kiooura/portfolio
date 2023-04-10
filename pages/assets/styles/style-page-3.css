@@ -180,7 +180,9 @@ p{
 
 
 
-
+#contain{
+  object-fit: contain;
+}
 
 
 .content-grid{
