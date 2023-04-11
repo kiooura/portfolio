@@ -258,6 +258,33 @@ p{
 .content-grid{
     grid-template-columns: repeat(1, 1fr);
   }
+
+
+
+  .content-img-holder-1{
+      grid-column-start: 1;
+      grid-column-end: auto;
+}
+
+.content-img-holder-2{
+      grid-column-start: 1;
+      grid-column-end: auto;
+}
+
+.content-img-holder-3{
+      grid-column-start: 1;
+      grid-column-end: auto;
+}
+
+.content-img-holder-4{
+      grid-column-start: 1;
+      grid-column-end: auto;
+}
+
+
+
+
+
   .content-img-holder-1-ex{
       grid-column-start: 1;
       height: auto;
