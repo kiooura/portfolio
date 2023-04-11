@@ -82,6 +82,7 @@ p#space-top {
   display: grid;
   gap: 3rem;
   grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 5rem;
 }
 .grid-even-columns>a{
   object-fit: cover;
