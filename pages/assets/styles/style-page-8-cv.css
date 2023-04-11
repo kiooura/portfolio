@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
 
 
 *{
@@ -173,6 +173,13 @@ h4{
         border: 2px solid darkorange;
       }
 
+
+#space{
+    font-size: 16px;
+  }
+  p#space-top {
+      font-size: 16px;
+  }
 
       @keyframes letter {
         0%,30%{ width: 16px; background: none; }
