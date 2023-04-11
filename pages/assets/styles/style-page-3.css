@@ -262,23 +262,23 @@ p{
 
 
   .content-img-holder-1{
-      grid-column-start: 1;
-      grid-column-end: auto;
+      grid-column-start: none;
+      grid-column-end: none;
 }
 
 .content-img-holder-2{
-      grid-column-start: 1;
-      grid-column-end: auto;
+      grid-column-start: none;
+      grid-column-end: none;
 }
 
 .content-img-holder-3{
-      grid-column-start: 1;
-      grid-column-end: auto;
+      grid-column-start: none;
+      grid-column-end: none;
 }
 
 .content-img-holder-4{
-      grid-column-start: 1;
-      grid-column-end: auto;
+      grid-column-start: none;
+      grid-column-end: none;
 }
 
 
