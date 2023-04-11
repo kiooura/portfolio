@@ -254,7 +254,25 @@ p{
     height: 115px;
   }
 
-  
+  .content-img-holder-1-ex{
+      grid-column-start: 1;
+      height: auto;
+    }
+
+
+.content-img-holder-2-ex{
+      height: auto;
+      grid-row-end: auto;
+      grid-row-start: 2;
+      grid-column-start: auto;
+      grid-column-end: auto;
+    } 
+
+    .content-img-holder-3-ex{
+      height: auto;
+      grid-column-start: 1;
+      grid-row-start: 3;
+    }
 
 
 }
