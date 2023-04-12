@@ -285,3 +285,11 @@ p{
   .img:hover .text1 {
 	opacity: 1;
   }
+
+
+
+  .bottom{
+  	display: flex;
+    align-items: center;
+    
+  }
