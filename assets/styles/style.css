@@ -293,7 +293,7 @@ p{
 	display: flex;
     align-items: baseline;
     bottom: 0;
-    position: inherit;
+	position: inherit;
   }
 
   .check-area{
