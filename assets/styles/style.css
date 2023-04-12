@@ -141,6 +141,7 @@ p{
 	display: grid;
 	gap: 3rem;
 	grid-template-columns: repeat(3, 1fr);
+
 }
 .grid-even-columns>a{
 	object-fit: cover;
@@ -153,7 +154,7 @@ p{
 	display: grid;
 	gap: 5rem;
 	grid-template-columns: repeat(2, 1fr);
-
+	z-index: 1;
 }
 .grid-even-columns-2>a{
 	object-fit: cover;
@@ -302,6 +303,7 @@ p{
 	position: absolute;
     justify-content: center;
     display: flex;
+	z-index: 0;
   }
 
 
