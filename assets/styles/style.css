@@ -84,7 +84,7 @@ section{
 	align-items: center;
 	width: 100vw;
 	scroll-snap-align: start;
-	padding-block: 5rem;
+	/*padding-block: 5rem; */
 }
 
 	section:nth-of-type(1){
@@ -294,5 +294,5 @@ p{
 	}
 
 	.center-all{
-		
+
 	}
