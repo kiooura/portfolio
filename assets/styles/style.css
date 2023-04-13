@@ -225,8 +225,28 @@ p{
 		text-align: center;
 	}
 
+	.bottom{
+		display: grid;
+		justify-items: center;
+	  }
+	
 
+	  #icon-style{
+		display: none !important;
+		color: #495057;
+	}
 
+	.email-info{
+		margin: auto;
+	}
+
+	.contact-info{
+		margin: 0 0 10px 0;
+	}
+
+	.contact-text{
+		margin: 5px;
+	}
 }
 
 
@@ -291,7 +311,6 @@ p{
 
   
   .bottom{
-	display: flex;
     align-items: baseline;
     bottom: 0;
 	position: inherit;
@@ -363,4 +382,29 @@ p{
 [tooltip]:hover::after,
 [tooltip]:hover::before {
     opacity: 1;
+}
+
+
+
+#icon-style{
+	font-size:16px;
+	display: inline;
+	padding-right: 10px;
+}
+
+.email-info{
+	padding-right:10px;
+	display: inline;
+    cursor: pointer;
+}
+
+.contact-info{
+	display: inline;
+	cursor: pointer
+}
+
+.contact-text{
+	padding-right:10px;
+	width: auto;
+	display: inline;
 }
