@@ -314,6 +314,7 @@ p{
     align-items: baseline;
     bottom: 0;
 	position: inherit;
+	padding-bottom: 0.5rem;
   }
 
   .check-area{
