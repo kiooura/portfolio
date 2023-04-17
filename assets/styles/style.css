@@ -190,12 +190,16 @@ p{
 		display: grid;
 	}
    .text1{
-    opacity: 1;
-    color: rgb(245 245 245);
+    opacity: 1 !important;
+    color: rgb(255, 165, 0) !important;
+  }
+
+  #move-down{
+	top: 125px;
   }
 
    .img{
-       -webkit-filter: grayscale(0);
+       -webkit-filter: grayscale(0) !important;
 }
 
 	html{
