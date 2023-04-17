@@ -115,7 +115,7 @@ h4{
 }
 
 #grid-row-2{
-  grid-row:span 4;
+  grid-row:span 3;
 }
 
 
@@ -193,16 +193,27 @@ h4{
         70%,100%{ width: 40px; background: darkorange; box-shadow: none;}
       }
       .first{
-        order: 1;
+        order: 1 !important;
       }
       .second{
-        order: 2;
+        order: 2 !important;
       }
 
       .padding-bottom-3rem{
         padding-bottom: 0 !important;
       }
 
+
+
+      .move-top{
+        top: 0px !important;
+      }
+}
+
+
+.move-top{
+  position: relative;
+  top: -130px;
 }
 
 
