@@ -166,7 +166,16 @@ p{
 @media  (max-width: 1024px)  {
 
 	.grid-even-columns{
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.grid-even-columns>a{
+		width: 220px;
+		height: 220px;
+	}
+	.grid-even-columns-2>a{
+		width: 220px;
+		height: 220px;
 	}
 }
 
@@ -179,13 +188,18 @@ p{
 		width: 180px;
 		height: 180px;
 	}
+	#smaller{
+		width: 180px !important;
+		height: 180px !important;
+	}
 	.grid-even-columns-2{
 		grid-template-columns: repeat(1, 1fr);
-	
+		justify-content: center;
+		padding-top: 6rem;
+		justify-items: center;
+
 	}
 	.grid-even-columns-2>a{
-		width: 180px;
-		height: 180px;
 		justify-content: center;
 		display: grid;
 	}
@@ -196,6 +210,11 @@ p{
 
   #move-down{
 	top: 125px;
+  }
+
+  .p-text-middle{
+	justify-content: center;
+    display: grid;
   }
 
    .img{
@@ -229,8 +248,8 @@ p{
 		text-align: center;
 	}
 
-	.bottom{
-		display: grid;
+	.bottom2{
+		display: grid !important;
 		justify-items: center;
 	  }
 	
@@ -251,6 +270,11 @@ p{
 	.contact-text{
 		margin: 5px;
 	}
+
+.bottom{
+	display: none !important;
+}
+
 }
 
 
@@ -321,6 +345,15 @@ p{
 	padding-bottom: 0.5rem;
   }
 
+  .bottom2{
+	display: none;
+    align-items: baseline;
+    bottom: 0;
+	position: inherit;
+	padding-bottom: 0.5rem;
+  }
+
+  
   .check-area{
 	height: 100vh;
     width: 100vw;
